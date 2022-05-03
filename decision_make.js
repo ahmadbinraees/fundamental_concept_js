@@ -8,6 +8,8 @@ var applePrice = 2000;
 var symPrice = 200;
 
 var haveMoney = 1000;
+var ultraMoney = 10000;
+haveMoney = 5000;
 
 if (samPrice <= haveMoney) {
     getSam = "I will buy samsung";
@@ -25,7 +27,7 @@ else if (sonyPrice <= haveMoney) {
     getSony = "I will buy Sony";
     console.log(getSony);
 }
-else if (applePrice <= haveMoney) {
+else if (applePrice <= haveMoney || haveMoney < ultraMoney) {
     getIphone = "I will buy Iphone 13";
     console.log(getIphone);
 }
