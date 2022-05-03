@@ -52,3 +52,9 @@ thingsName.shift();
 console.log(thingsName);
 
 
+/* ----------------- remove element from array last --------------------- */
+// here i call again first array and operation it.
+console.log(thingsName);
+
+thingsName.pop();
+console.log(thingsName);
