@@ -8,3 +8,32 @@ var applePrice = 2000;
 var symPrice = 200;
 
 var haveMoney = 1000;
+
+if (samPrice <= haveMoney) {
+    getSam = "I will buy samsung";
+    console.log(getSam);
+}
+else if (nokPrice <= haveMoney) {
+    getNok = "I will buy Nokia";
+    console.log(getNok);
+}
+else if (miPrice <= haveMoney) {
+    getMi = "I will buy Realme";
+    console.log(getMi);
+}
+else if (sonyPrice <= haveMoney) {
+    getSony = "I will buy Sony";
+    console.log(getSony);
+}
+else if (applePrice <= haveMoney) {
+    getIphone = "I will buy Iphone 13";
+    console.log(getIphone);
+}
+else if (symPrice <= haveMoney) {
+    getSym = "I will buy Symphony";
+    console.log(getSym);
+}
+else {
+    happyWith = "I am happy with My Calculator";
+    console.log(happyWith);
+}
