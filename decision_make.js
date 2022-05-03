@@ -9,9 +9,11 @@ var symPrice = 200;
 
 var haveMoney = 1000;
 var ultraMoney = 10000;
-haveMoney = 5000;
 
-if (samPrice <= haveMoney) {
+haveMoney = 2;
+ultraMoney = 2
+
+if (samPrice <= haveMoney && haveMoney > ultraMoney) {
     getSam = "I will buy samsung";
     console.log(getSam);
 }
