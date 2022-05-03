@@ -46,15 +46,20 @@ foodList.unshift('Fish Carry','Fried fish','Beef Noodles');
 /*------------------ remove element from array start --------------------  */
 // i'm calling here the first array in this code. which name is thingsName
 // and i will operation on that array
-console.log(thingsName);
+
+// console.log(thingsName);
 
 thingsName.shift();
-console.log(thingsName);
+// console.log(thingsName);
 
 
 /* ----------------- remove element from array last --------------------- */
 // here i call again first array and operation it.
-console.log(thingsName);
+
+// console.log(thingsName);
 
 thingsName.pop();
-console.log(thingsName);
+// console.log(thingsName);
+
+
+/*------------------------ array length check ---------------------------*/
