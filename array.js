@@ -63,3 +63,7 @@ thingsName.pop();
 
 
 /*------------------------ array length check ---------------------------*/
+
+var itemQty = [2,4,6,8,10];
+var itemLength = itemQty.length;
+console.log(itemLength);
