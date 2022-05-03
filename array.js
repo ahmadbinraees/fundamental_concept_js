@@ -44,3 +44,11 @@ foodList.unshift('Fish Carry','Fried fish','Beef Noodles');
 
 
 /*------------------ remove element from array start --------------------  */
+// i'm calling here the first array in this code. which name is thingsName
+// and i will operation on that array
+console.log(thingsName);
+
+thingsName.shift();
+console.log(thingsName);
+
+
