@@ -6,4 +6,10 @@ while (count <= 10) {
     count = count + 1;
 }
 
+var roastGiven = 0;
+
+while (roastGiven <= 20) {
+    console.log(roastGiven, "= Roast Given");
+    roastGiven++;
+}
 
