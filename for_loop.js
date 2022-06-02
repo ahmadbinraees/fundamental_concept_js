@@ -12,3 +12,7 @@ for (let v = 40; v > 2; v--) {
 for (let d = 0; d <= 10; d++) {
     console.log(d , " murgi deu");
 }
+
+for (let t = 0; t <= 12; t++) {
+    console.log("count = " , t);
+}
